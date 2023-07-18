@@ -15,7 +15,7 @@
     <div class="header-home-page header-home-page-gradient">
         <div class="content content-header">
             <nav>
-                <a class="nav-logo" href="#">
+                <a class="nav-logo" href="./homepage.html">
                     <img src="./img/logotype.svg" alt="">
                 </a>
 
@@ -148,23 +148,20 @@
 
             <div class="about-appearance-carousel">
                 <div class="about-appearance-carousel-img-block">
-                    <button class="button-arrow button-arrow-active button-arrow-left"></button>
-                    <img class="about-appearance-carousel-img" src="./img/asteriaspage/appearance1.svg" alt="">
-                    <!--<img class="about-appearance-carousel-img" src="./img/asteriaspage/appearance2.svg" alt="">
-                    <img class="about-appearance-carousel-img" src="./img/asteriaspage/appearance3.svg" alt="">
-                    <img class="about-appearance-carousel-img" src="./img/asteriaspage/appearance4.svg" alt="">
-                    <img class="about-appearance-carousel-img" src="./img/asteriaspage/appearance5.svg" alt="">-->
-                    <button class="button-arrow button-arrow-default button-arrow-right-default"></button>
+                    <button id="button-arrow-left" class="button-arrow button-arrow-active button-arrow-left"></button>
+                    <div class="about-appearance-carousel-img-container">
+                        <div class="about-appearance-carousel-img-container-1">
+                            <img class="about-appearance-carousel-img" src="./img/asteriaspage/appearance1.svg" alt="">
+                            <img class="about-appearance-carousel-img" src="./img/asteriaspage/appearance2.svg" alt="">
+                            <img class="about-appearance-carousel-img" src="./img/asteriaspage/appearance3.svg" alt="">
+                            <img class="about-appearance-carousel-img" src="./img/asteriaspage/appearance4.svg" alt="">
+                            <img class="about-appearance-carousel-img" src="./img/asteriaspage/appearance5.svg" alt="">
+                        </div>
+                    </div>
+                    <button id="button-arrow-right" class="button-arrow button-arrow-default button-arrow-right-default"></button>
                 </div>
 
                 <div class="about-appearance-carousel-pages">
-                    <div class="about-appearance-carousel-pages-item about-appearance-carousel-pages-item-disable">
-                    </div>
-                    <div class="about-appearance-carousel-pages-item about-appearance-carousel-pages-item-active"></div>
-                    <div class="about-appearance-carousel-pages-item about-appearance-carousel-pages-item-disable">
-                    </div>
-                    <div class="about-appearance-carousel-pages-item about-appearance-carousel-pages-item-disable">
-                    </div>
                 </div>
             </div>
         </div>
@@ -368,7 +365,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
         </script>
-    <script src="./js/script.js"></script>
+     <script src="./js/asteriaspage-script.js"></script>
 </body>
 
 <footer>
@@ -424,7 +421,7 @@
                     </div>
                 </div>
 
-                <div class="section-item">
+                <div class="section-item section-item-special">
                     <div class="text-body18 medium-text secondary-text">Вакансии</div>
                     <div class="section-item-list">
                         <div class="text-body16 regular-text secondary-text section-item-list-point">Технический отдел
